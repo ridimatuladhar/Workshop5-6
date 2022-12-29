@@ -1,0 +1,177 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+
+/* page one */
+.page1{
+    background-color: rgb(61, 184, 221);
+    margin: 0;
+}
+.page1 img{
+    width: 40%;
+    margin-left: 60%;
+    height: 100%;
+}
+.page1 p{
+    font-size: 18px;
+    font-weight: 100;
+    margin-bottom: 80px;
+}
+.page1 h1{
+   font-size: 72px;
+   margin-bottom: 20px;
+   width: 500px;
+   color: white;
+}
+.page1 h2{
+    font-size: 28px;
+    font-weight: 200;
+    margin-bottom: 80px;
+}
+.page1 a{
+    background-color: aqua;
+    padding: 10px;
+    border-radius: 30%;
+}
+.left{
+    margin-left: 100px;
+}
+/* page two */
+.page2{
+    padding-top: 40px;
+    background-color: rgb(98, 141, 98);
+    color: white;
+    width: 100%;
+    margin: auto;
+    height: 750px;
+}
+
+.page2 h1{
+    font-size: 52px;
+    margin-bottom: 20px;
+    margin-left: 100px;
+    max-width: 40%;
+}
+
+.page2 p{
+    font-size: 24px;
+    margin-top: -200px;
+    margin-left: 800px;
+    max-width: 30%;
+}
+
+.page2 img{
+    width: 70%;
+    height: 400px;
+    margin-top: 50px;
+    margin-left: 100px;
+    margin-bottom: 10px;
+}
+/* page three */
+.page3{
+    background-color: brown;
+    color: black;
+    width: 100%;
+    margin: auto;
+    height: 750px;
+    padding-top: 40px;
+}
+.page3 img{
+    width: 350px;
+    height: 350px;
+    display: inline-block;
+    width: 350px;
+    height: 425px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+.page3 h1{
+    font-size: 52px;
+    text-align: center;
+    color: white;
+}
+.page3 .images{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+.content{
+    text-align: center;
+}
+.content h2{
+    font-size: 24px;
+    font-weight: bolder;
+    margin-bottom: 10px;
+    padding: 0 120px;
+    display: inline-block;
+}
+.content p{
+    font-size: 18px;
+    font-weight: 200;
+    padding: 0 170px;
+    display: inline-block;
+}
+
+/* page four */
+.page4{
+    background-color: rgb(155, 69, 209);
+    display: flex;
+    align-items: center;
+    width: 100%;
+    gap: 20px;
+}
+.page4 img{
+    width: 600px;
+    height: 550px;
+}
+.page4 h1{
+    color: white;
+    font-size: 50px;
+    padding: 80px;
+}
+.page4 p{
+    font-weight: bold;
+    line-height: 40px;
+}
+
+/* page five */
+.page5{
+    background-color: aquamarine;
+    width: 100%;
+    display: flex;
+    gap: 50px;
+}
+.page5 h1{
+    font-size: 50px;
+    color: white;
+    padding: 50px;
+}
+.page5 p{
+    font-weight: bold;
+    padding: 40px;
+    color: white;
+}
+.page5 img {
+    object-fit: cover;
+    width: 50%;
+    height: 100vh;
+    }
+.page5 a{
+    background-color: rgb(68, 202, 158);
+    padding: 10px;
+    margin-left: 50px;
+    border-radius: 30%;
+}
+
+
+
+
+
+
+
